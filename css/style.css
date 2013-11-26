@@ -3,17 +3,22 @@
  *********************************************/
 
 .slide-1 h2,
-.slide-4 h2 {
+.slide-4 h2,
+.slide-9 h2,
+.slide-10 h2 {
 	 padding-top:2.2em;
 }
 
-.slide-5 h2 {
+.slide-5 h2,
+.slide-8 h2,
+.slide-11 h2 {
 	padding-top: 2em;
 }
 
 .slide-2 h2,
 .slide-6 h2,
-.slide-3 p {
+.slide-3 p,
+.slide-7 p{
 	padding-top:3.2em;
 }
 
