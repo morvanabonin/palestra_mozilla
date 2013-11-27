@@ -11,14 +11,16 @@
 
 .slide-5 h2,
 .slide-8 h2,
-.slide-11 h2 {
+.slide-11 h2,
+.slide-12 h2 {
 	padding-top: 2em;
 }
 
 .slide-2 h2,
 .slide-6 h2,
 .slide-3 p,
-.slide-7 p{
+.slide-7 p,
+.slide-13 h2{
 	padding-top:3.2em;
 }
 
