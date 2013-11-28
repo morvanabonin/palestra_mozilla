@@ -2,17 +2,32 @@
  * Modificações do original
  *********************************************/
 
-.slide-1 h2,
-.slide-4 h2,
-.slide-9 h2,
-.slide-10 h2 {
-	 padding-top:2.2em;
+.slide-18 h3 {
+	padding-top: 1.5em;
 }
 
-.slide-5 h2,
+.slide-1 h2,
+.slide-11 h3, 
+.slide-12 h2,
+.slide-4 h2,
+.slide-19 h2,
+.slide-21 h3,
+.slide-25 h3 {
+	padding-top:2.2em;
+}
+
+.slide-5 h3,
+.slide-9 h3,
+.slide-10 h3,
+.slide-20 h3,
+.slide-22 h2,
+.slide-24 h3,
+.slide-26 h3 {
+	padding-top:2.9em;
+}
+
 .slide-8 h2,
-.slide-11 h2,
-.slide-12 h2 {
+.slide-13 p {
 	padding-top: 2em;
 }
 
@@ -20,8 +35,29 @@
 .slide-6 h2,
 .slide-3 p,
 .slide-7 p,
-.slide-13 h2{
+.slide-13 h2,
+.slide-15 h2,
+.slide-27 h2,
+.slide-29 h2 {
 	padding-top:3.2em;
+}
+
+.slide-16 p,
+.slide-23 p {
+	padding-top:3.4em
+}
+
+.reveal section .slide-14 img {
+	margin-top: 50px;
+}
+
+.reveal section .slide-17 img {
+	margin-top: 100px;
+}
+
+.slide-28 table {
+	padding-top: 2.4em;
+	padding-left: 6em;
 }
 
 
