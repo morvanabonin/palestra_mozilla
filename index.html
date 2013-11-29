@@ -143,7 +143,7 @@
 					<section class="slide-13">
 						<p>
 							O Firefox possui diversas ferramentas para auxiliar os desenvolvedores web a fazerem o seu
-							trabalho. 
+							trabalho.
 							A ferramenta de desenvolvedor do Firefox serve para inspecionar e editar HTML e CSS, para depurar JavaScript.
 							Você pode usá-la para ver as requisições de rede que seu navegador fez, bem como qualquer avisos e erros do JavaScript e/ ou CSS que ele encontrar durante o carregamento de uma página. Você pode usá-la para depurar problemas de desempenho no site.
 						</p>
@@ -255,7 +255,7 @@
 							        <li><a href="https://marketplace.firefox.com/pt-BR/" target="_blank">Firefox Marketplace</a></li>
 							        <li><a href="https://addons.mozilla.org/pt-br/firefox/addon/firefox-os-simulator/" target="_blank">Firefox OS 4.0 Simulator</a></li>
 							        <li>
-							          <a href="https://leanpub.com/guiarapidofirefoxos">Guia Rápido de Desenvolvimento<br/> para Firefox OS por Andre Garzia </a> 
+							          <a href="https://leanpub.com/guiarapidofirefoxos">Guia Rápido de Desenvolvimento<br/> para Firefox OS por Andre Garzia </a>
 							        </li>
 									<li><a href="https://wiki.mozilla.org/Apps" target="_blank">Apps</a></li>
 									<li><a href="https://wiki.mozilla.org/WebAPI" target="_blank">WebAPI</a></li>
@@ -291,6 +291,22 @@
 
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
+					// Remotes
+					{ src: 'https://raw.github.com/Remotes/Remotes/master/dist/remotes.ne.min.js', async: true,
+						callback: function() {
+							new Remotes("preview")
+								.on("swipe-left", function(e){ Reveal.navigateRight(); })
+								.on("swipe-right", function(e){ Reveal.navigateLeft(); })
+								.on("swipe-up", function(e){ Reveal.navigateDown(); })
+								.on("swipe-down", function(e){ Reveal.navigateUp(); })
+								.on("tap", function(e){
+									Reveal.toggleOverview();
+								});
+						}
+					},
+					{ src: 'lib/js/highlight.js', async: true, callback: function() { window.hljs.initHighlightingOnLoad(); } },
+					{ src: 'lib/js/highlight.js', async: true, callback: function() { window.hljs.initHighlightingOnLoad(); } },
+
 					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
 					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
