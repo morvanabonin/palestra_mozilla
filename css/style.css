@@ -1,6 +1,9 @@
 /*********************************************
  * Modificações do original
  *********************************************/
+.reveal h5, .reveal h3 {
+	line-height: 1.0em;
+}
 
 .slide-18 h3 {
 	padding-top: 1.5em;
@@ -38,7 +41,8 @@
 .slide-7 p,
 .slide-13 h2,
 .slide-15 h2,
-.slide-29 h2 {
+.slide-29 h2,
+.slide-33 h2 {
 	padding-top:3.2em;
 }
 
@@ -55,7 +59,7 @@
 	margin-top: 100px;
 }
 
-.slide-28 table {
+.slide-34 table {
 	padding-top: 2.4em;
 	padding-left: 6em;
 }
